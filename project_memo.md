@@ -9,14 +9,15 @@ https://docs.google.com/spreadsheets/d/1gDyi_L4UvIrLTEC6Wri5nbaMmkGmLQBk-Yx3z0XD
 
 -Status: LoanStatus
 -Borrower's credit grade : ProsperRating (numeric), CreditScoreRangeLower
--Borrower's income/asset related data :occupation, employment status, employment status duration,home owener or not
--Borrower's financial related data : Income, dead to income ratio, delinquencies, public records, revolving credit balance
--Loan condition : loan original amount, Borrower's APR
--Others : recommendations, listing category
+-Borrower's income/asset related data :EmploymentStatus, IsBorrowerHomeowner
+-Borrower's financial related data : IncomeRange, StatedMonthlyIncome, DebtToIncomeRatio, CurrentDelinquencies, AmountDelinquent, PublicRecordsLast12Months, BankcardUtilization, 
+-Loan condition : LoanOriginalAmount, BorrowerAPR
+-Others :ListingCategory (numeric)
 
 
 outlier when there are many number .
 
 how i should check . should i narrow down to the one with defaulted.
 
-uni:
+c_loan_vars = ['LoanStatus', 'ListingCategory (numeric)']
+c_fin_vars = ['ProsperRating (numeric)', 'EmploymentStatus', 'IsBorrowerHomeowner', 'IncomeRange']
