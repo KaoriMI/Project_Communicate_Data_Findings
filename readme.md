@@ -17,5 +17,7 @@ This data set contains 113,937 loans with 81 variables on each loan, including l
 > Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
 
 
-memo
-27 dec: uni variable
+
+***
+APR vs Prosper vs original loan
+If Prosper rating is higherm the APR tends to go lower. Low rating people's loan amount is significantly low while the APR is quite high. Prosper Rating of 5 and 6 shows more original loan amount higher than 30,000 than other ratings.
