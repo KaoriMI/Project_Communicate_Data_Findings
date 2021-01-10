@@ -1,4 +1,4 @@
-# Loan Data from Prosper Exploration
+# Exploration of Loan Data from Prosper 
 ## by Kaori Ishikawa
 
 
